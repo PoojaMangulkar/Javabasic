@@ -1,8 +1,8 @@
-package Polymorphism;
+package AbstraEncap;
 
-public class FootballPlayer extends Athlete  {
-	
-	private int completions;
+public class FootballPlayer extends Athlete {
+
+    private int completions;
     private int passingYards;
 
     public FootballPlayer(String name, String nickname, int yearOfBorn, String team, int gamesPlayed, int completions, int passingYards) {
@@ -30,5 +30,7 @@ public class FootballPlayer extends Athlete  {
     public void increasePassingYards(int passingYards) {
         this.passingYards += passingYards;
     }
-
 }
+	
+
+

@@ -1,4 +1,4 @@
-package Polymorphism;
+package AbstraEncap;
 
 public abstract class Athlete {
 	private String name;
@@ -40,4 +40,10 @@ public abstract class Athlete {
 
     public abstract String getBodyType();
 
+	public void freestyle() {
+		// TODO Auto-generated method stub
+		
+	}
 }
+
+

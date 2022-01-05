@@ -1,8 +1,8 @@
-package Polymorphism;
+package AbstraEncap;
+
 import java.util.Random;
 
-public class BasketballPlayer   extends Athlete {
-	
+public class BasketballPlayer extends Athlete {
 	 private double freeThrowPercentage;
 	    private double pointsPerGame;
 
@@ -46,4 +46,5 @@ public class BasketballPlayer   extends Athlete {
 	    public void setPointsPerGame(double pointsPerGame) {
 	        this.pointsPerGame = pointsPerGame;
 	    }
+
 }
