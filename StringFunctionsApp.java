@@ -1,14 +1,14 @@
-package StringFun;
+package Comments;
+
 import java.util.Scanner;
-
-
 public class StringFunctionsApp {
+	
 	 public static void main(String[] args) {
 	        Scanner keyboardInput = new Scanner(System.in);
 	        String inputText = keyboardInput.nextLine();
 
 	        if ("Paris".equals(inputText)) {
-	            System.out.println("Paris was typed in.");
+	            System.out.println("The capital of France is typed in.");
 	        } else {
 	            System.out.println("The text typed in is: " + inputText);
 	        }
@@ -37,6 +37,5 @@ public class StringFunctionsApp {
 
 	        System.out.println("The replaced text: " + inputText.replace("N", "D"));
 	    }
-	
 
 }
